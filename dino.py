@@ -6,7 +6,10 @@ from time import time, sleep
 import pyautogui
 
 pyautogui.PAUSE = 0
-
+#r for change capture area
+#q forr quit
+#p for recorogize 
+#n for delete last recogonation
 print("Press 's' to start playing.")
 print("Once started press 'q' to quit.")
 keyboard.wait('s')
